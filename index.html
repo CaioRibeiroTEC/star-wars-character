@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/millennium-falcon.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <a href="./index.html">
+            <div class="logo">
+                <img src="./assets/star-wars-logo.png" alt="logo" class="logo-img"/>
+                <span class="logo-tex">Characters</span>
+            </div>
+        </a>
+        <div class="social-media">
+
+            <a href="https://github.com/CaioRibeiroTEC" target="_blank">
+                <i class="fa-brands fa-github" id="icon"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/caio-c%C3%A9sar-ribeiro-981453308/" target="_blank">
+                <i class="fa-brands fa-linkedin-in" id="icon2"></i>
+            </a>
+
+            <a class="contato-whats-container">
+                <i class="fa-brands fa-whatsapp fa-xl" > <span class="span-whats"> (62) 9 8190 - 4367</span></i>
+            </a>
+           
+
+        </div>
+    </header>
+
+    <div class="main-container">
+        <h2>Conheca todos os personagens de Star Wars em um so lugar</h2>
+
+        <div class="main-content" id="main-content" ></div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+
+        <div class="buttons">
+            <button id="back-button" disabled>Anterior</button>
+            <button id="next-button" disabled>Próximo</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p class="footer-logo">Star Wars Characters</p>
+        <p class="copyrigth">Desenvolvido por &copy; Caio César Ribeiro</p>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/c35de4447c.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
